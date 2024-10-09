@@ -16,7 +16,7 @@ def isPalindrome(num):
 
 nums=[]
 for i in range(100, 1000):
-    for j in range(100, 1000):
+    for j in range(i, 1000):
         c=i*j
         nums.append(c)
 
@@ -30,4 +30,5 @@ for n in candidates:
     if n>largest:
         largest=n
 
-print(largest)
+print("largest:", largest)
+print(candidates)
