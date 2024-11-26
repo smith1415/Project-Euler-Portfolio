@@ -4,15 +4,15 @@ def primes(num):
     primes=[2]
     i=3
     while len(primes)<num:
-        isComposite = False
+        isPrime=True
         k=0
         while primes[k]<=i**1/2:
             if(i%primes[k]==0):
-                isComposite=True
+                isPrime=False
             k+=1
-        if(not(isComposite)):
+        if(isPrime):
             primes.append(i)
-        i+=1
+        i+=2
     return primes
 
 n=int(input("What number do you want?"))
