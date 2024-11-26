@@ -1,4 +1,6 @@
-#Problem 5: 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+#Problem 5: 2520 is the smallest number that can be divided by each of the numbers from 
+#1 to 10 without any remainder. What is the smallest positive number that is evenly 
+#divisible by all of the numbers from 1 to 20?
 
 def findLowestMultiples(num, start, end, array):
     for i  in range(start, end):
@@ -10,16 +12,15 @@ def findLowestMultiples(num, start, end, array):
 list=[]
 for i in range(2, 21):
     factors=findLowestMultiples(i, 2, i+1, [])
-    clist=[]
-    for i in list:
-        clist.append(i)
+    currentlist=[]
+    for already in list:
+        currentlist.append(already)
     for f in factors:
-        if f in clist:
-            clist.remove(f)
+        if f in currentlist:
+            currentlist.remove(f)
         else:
             list.append(f)
     print(list)
-print(list)
 output=1
 for i in list:
     output=output*i
