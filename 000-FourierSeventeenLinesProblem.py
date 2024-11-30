@@ -1,9 +1,8 @@
-#Note:I lovingly call this program "problem 0." It truly is not a project Euler problem, 
-#or if it is, it is not indexed at 0. However, solving this problem led me to discover 
-#Project Euler. At the end of last summer, I probably spent a entire afternoon staring 
-#at this program and figuring out what I wanted it to do. After finding the solution, I 
-#gushed to my friends about it and one of them told me about Project Euler. The rest 
-#followed.
+#Note:I call this program "problem 0." It truly is not a project Euler problem, or if it 
+#is, it is not indexed at 0. However, solving this problem led me to discover Project 
+#Euler. At the end of last summer, I spent a entire afternoon staring at this program 
+#and figuring out what I wanted it to do. After finding the solution, I told my friends 
+#about it and one of them told me about Project Euler. The rest followed.
 
 #Problem 0: In a 1788 letter to a friend and teacher, Joseph Fourier wrote, "Here is a 
 #little problem of a rather singular nature: it occurred to me in connection with 
@@ -12,9 +11,9 @@
 #the lines extend to infinity, and that no point of intersection belongs to more than 
 #two lines" 
 
-#After finding one solution (8, 4, 2, 1, 1), I took issue with the very concept that is 
-#was a question "singular in nature." I saw no reason why an arragement with 100 or 102 
-#or 72 points of intersection would be any less interesting--unless of course there are 
+#After finding one solution (8, 4, 2, 1, 1), I took issue with the idea that this is 
+#a question "singular in nature." I saw no reason why an arragement with 100 or 102 or 
+#72 points of intersection would be any less interesting--unless of course there are 
 #some numbers for which it is impossible. Thus, I wrote this program to find all the 
 #numbers of intersections which are possible to make with 17 lines:
 
