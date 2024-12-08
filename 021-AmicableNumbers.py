@@ -19,7 +19,7 @@ def d(num):
                     sum=sum+int(num/i)
     return sum
 
-num=int(input("What number do you want?"))
+num=int(input("Up to what number?"))
 list=[]
 for i in range(0, num+1):
     list.append([i, d(i)])
