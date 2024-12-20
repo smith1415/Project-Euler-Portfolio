@@ -1,4 +1,4 @@
-#have not begun
+#have not solved (yet)
 #Problem 54: In the card game poker, a hand consists of five cards and are ranked, from 
 #lowest to highest, in the following way:
 """
