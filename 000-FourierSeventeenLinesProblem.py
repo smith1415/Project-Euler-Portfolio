@@ -18,7 +18,7 @@
 #numbers of intersections which are possible to make with 17 lines:
 
 #simply counts the number of ways to group the lines into sets of parallels
-def recursion(n,lowest, goal):
+def ways(n,lowest, goal):
     if n>goal:
         return 0
     if n==goal:
@@ -26,30 +26,30 @@ def recursion(n,lowest, goal):
     else:
         total=0
         for i in range (1, lowest+1):
-            total=total+recursion(i, i, goal-n)
+            total=total+ways(i, i, goal-n)
     return total
 num=int(input("How many lines?"))
-print("This is the number of different groupings:"+str(recursion(0, num, num)))
+print("This is the number of different groupings:"+str(ways(0, num, num)))
 
 #gives a list of the different ways
-def recursi(nums, goal):
+def listWays(nums, goal):
     if sum(nums)>goal:
         return 0
     if sum(nums)==goal:
         list.append(nums)
         return 1
     total=0
-    for i in range (1, nums[-1]+1):
+    for i in range(1, nums[-1]+1):
         newnums=[]
         for n in nums:
             newnums.append(n)
         newnums.append(i)
-        total=total+recursi(newnums, goal)
+        total=total+listWays(newnums, goal)
     return total
 def groupings(n):
     out=0
     for i in range (1, n+1):
-        out=out+recursi([i], n)
+        out=out+listWays([i], n)
     return out
 
 list=[]
