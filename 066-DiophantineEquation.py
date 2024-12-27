@@ -1,3 +1,4 @@
+#have not solved (yet)
 #Problem 66: Consider quadratic Diophantine equations of the form: x**2-Dy**2=1. For example, when 
 #D=13, the minimal solution in x is 649**2-13x180**2=1. It can be assumed that there are no 
 #solutions in positive integers when D is square. By finding minimal solutions in x for D=
