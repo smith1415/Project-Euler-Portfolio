@@ -2,7 +2,7 @@
 #is, it is not indexed at 0. However, solving this problem led me to discover Project 
 #Euler. At the end of last summer, I spent a entire afternoon staring at this program 
 #and figuring out what I wanted it to do. After finding the solution, I told my friends 
-#about it and one of them told me about Project Euler. The rest followed.
+#about it and one of them told me about Project Euler, so this problem started it all.
 
 #Problem 0: In a 1788 letter to a friend and teacher, Joseph Fourier wrote, "Here is a 
 #little problem of a rather singular nature: it occurred to me in connection with 
