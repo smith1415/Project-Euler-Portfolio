@@ -65,6 +65,6 @@ for group in list:
     for g in group:
         lostIntersections=int(g*(g-1)/2)
         intersections=intersections-lostIntersections
-    Xs.append(intersections)
+    Xs.append([intersections, group])
 Xs.sort()
 print(Xs)
