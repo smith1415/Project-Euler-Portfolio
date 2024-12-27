@@ -10,8 +10,6 @@ def place(num):
     for i in range(0, len(cd)):
         if len(order)<=len(cd[i][0]) and int(order)<int(cd[i][0]):
             return i
-        if len(order)<=len(cd[i][0]) and int(order)<int(cd[i][0]):
-            return i+1
     return -1
 i=2
 #cd=cube digits
