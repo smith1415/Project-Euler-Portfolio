@@ -28,8 +28,8 @@ def recursion(n,lowest, goal):
         for i in range (1, lowest+1):
             total=total+recursion(i, i, goal-n)
     return total
-num=int(input("What number do you want to try?"))
-print(str(recursion(0, num, num)))
+num=int(input("How many lines?"))
+print("This is the number of different groupings:"+str(recursion(0, num, num)))
 
 #gives a list of the different ways
 def recursi(nums, goal):
@@ -46,25 +46,27 @@ def recursi(nums, goal):
         newnums.append(i)
         total=total+recursi(newnums, goal)
     return total
-def groupings(num):
+def groupings(n):
     out=0
-    for i in range (1, num+1):
-        out=out+recursi([i], num)
+    for i in range (1, n+1):
+        out=out+recursi([i], n)
     return out
 
 list=[]
-number=int(input("What number do you want to find the groupings of?"))
-print(groupings(number))
+temp=input("Press enter if you want to see the groupings")
+print(groupings(num))
 for i in list:
     print(i)
 
+temp=input("Press enter if you want to see the intersections of these groupings")
 #goes further and gives the intersections of lines in those groupings
 Xs=[]
 for group in list:
-    intersections=number*(number-1)/2
+    intersections=int(num*(num-1)/2)
     for g in group:
         lostIntersections=int(g*(g-1)/2)
         intersections=intersections-lostIntersections
     Xs.append([intersections, group])
 Xs.sort()
-print(Xs)
+for item in Xs:
+    print(item)
