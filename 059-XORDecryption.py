@@ -1,4 +1,3 @@
-#not started yet
 #Problem 59: Each character on a computer is assigned a unique code and the preferred standard is 
 #ASCII (American Standard Code for Information Interchange). For example, uppercase A = 65, 
 #asterisk (*) = 42, and lowercase k = 107. A modern encryption method is to take a text file, 
