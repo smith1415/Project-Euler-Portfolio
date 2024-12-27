@@ -1,3 +1,4 @@
+#have not solved (yet)
 #Problem 64: All square roots are periodic when written as continued fractions and can be written in 
 #the form: sqrt(N)=a<0>+1/(a<1>+1/(a<2>+1/(a<3>+...))). It can be seen that the sequence is 
 #repeating. For conciseness, we use the notation sqrt(23)=[4;(1,3,1,8)], to indicate that the block 
