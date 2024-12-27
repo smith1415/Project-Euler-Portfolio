@@ -17,7 +17,7 @@
 #some numbers for which it is impossible. Thus, I wrote this program to find all the 
 #numbers of intersections which are possible to make with 17 lines:
 
-#simply counts the number of ways
+#simply counts the number of ways to group the lines into sets of parallels
 def recursion(n,lowest, goal):
     if n>goal:
         return 0
@@ -58,8 +58,9 @@ print(groupings(num))
 for i in list:
     print(i)
 
-temp=input("Press enter if you want to see the intersections of these groupings")
+
 #goes further and gives the intersections of lines in those groupings
+temp=input("Press enter if you want to see the number of intersections of these groupings")
 Xs=[]
 for group in list:
     intersections=int(num*(num-1)/2)
@@ -69,4 +70,4 @@ for group in list:
     Xs.append([intersections, group])
 Xs.sort()
 for item in Xs:
-    print(item)
+    print(item[0], item[1])
