@@ -3,42 +3,43 @@
 #(200p). It is possible to make £2 in the following way: 1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 
 #3×1p. How many different ways can £2 be made using any number of coins?
 
-#just finds the number of ways regularly (see #0 or #76)
-def recursion(n, lowest, goal):
+
+#simply counts the number of ways to group things normally (see #0 or #76)
+def ways(n,lowest, goal):
     if n>goal:
         return 0
     if n==goal:
         return 1
     else:
         total=0
-        for i in range(1, lowest+1):
-            total=total+recursion(i, i, goal-n)
+        for i in range (1, lowest+1):
+            total=total+ways(i, i, goal-n)
     return total
 
-#finds the list of ways regularly
-def recursi(nums, goal):
+#gives a list of the different ways
+def listWays(nums, goal):
     if sum(nums)>goal:
         return 0
     if sum(nums)==goal:
         list.append(nums)
         return 1
     total=0
-    for i in range (1, nums[-1]+1):
+    for i in range(1, nums[-1]+1):
         newnums=[]
         for n in nums:
             newnums.append(n)
         newnums.append(i)
-        total=total+recursi(newnums, goal)
+        total=total+listWays(newnums, goal)
     return total
-def groupings(num):
+def groupings(n):
     out=0
-    for i in range (1, num+1):
-        out=out+recursi([i], num)
+    for i in range (1, n+1):
+        out=out+listWays([i], n)
     return out
 
 #based on those I made these:
 #finds the number of ways only using coin values
-def coinRecursion(n, lowest, goal):
+def coinWays(n, lowest, goal):
     if n>goal:
         return 0
     if n==goal:
@@ -48,13 +49,13 @@ def coinRecursion(n, lowest, goal):
         i=0
         total=0
         while not(i==len(list)) and list[i]<=lowest:
-            total=total+coinRecursion(list[i], list[i], goal-n)
+            total=total+coinWays(list[i], list[i], goal-n)
             i+=1
     return total
 
 
 #finds the list of ways
-def coinRecursi(nums, goal, finalList):
+def coinListWays(nums, goal, finalList):
     if sum(nums)>goal:
         return 0
     if sum(nums)==goal:
@@ -69,20 +70,23 @@ def coinRecursi(nums, goal, finalList):
             for n in nums:
                 newnums.append(n)
             newnums.append(list[i])
-            total=total+coinRecursi(newnums, goal, finalList)
+            total=total+coinListWays(newnums, goal, finalList)
             i+=1
         return total
 def coinGroupings(num, listing):
     out=0
     for i in [1, 2, 5, 10, 20, 50, 100, 200]:
-        out=out+coinRecursi([i], num, listing)
+        out=out+coinListWays([i], num, listing)
     return out
 
 
-print("simple way:", coinRecursion(0, 200, 200))
+print("simple way:", coinWays(0, 200, 200))
 
 groups=[]
 print("complicated way:", coinGroupings(200, groups))
-print(len(groups))
+print("Here are all "+str(len(groups))+" ways:")
+for group in groups:
+    print(group)
+    
 for group in groups:
     print(group)
