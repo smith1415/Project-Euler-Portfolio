@@ -1,3 +1,4 @@
+#have not solved (yet)
 #Problem 65: The square root of 2 can be written as an infinite continued fraction. 
 #sqrt(2)=1+1/(2+1/(2+1/(2+1/(2+...)))) The infinite continued fraction can be written, 
 #sqrt(2)=[1;(2)], (2) indicates that 2 repeats ad infinitum. In a similar way, 
