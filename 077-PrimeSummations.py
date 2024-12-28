@@ -9,7 +9,7 @@
 #What is the first value which can be written as the sum of primes in over five thousand 
 #different ways?
 
-#c.f. problems 76, 31, and 0
+#cf. problems 76, 31, and 0
 booleans=[False, False]
 for i in range(2, 1000):
     booleans.append(True)
