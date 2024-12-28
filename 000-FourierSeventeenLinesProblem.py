@@ -1,6 +1,7 @@
-#Note:I call this program "problem 0." It truly is not a project Euler problem, or if it 
+#Note:I call this program "problem 0," but I saw this problem at Hampshire College
+#on Yellow Pigs' Day, and it is truly not a Project Euler problem, or if it 
 #is, it is not indexed at 0. However, solving this problem led me to discover Project 
-#Euler. At the end of last summer, I spent an entire afternoon staring at this program 
+#Euler. At the end of the summer, I spent an entire afternoon staring at this program 
 #and figuring out what I wanted it to do. After finding the solution, I told my friends 
 #about it and one of them told me about Project Euler, so this problem started it all.
 
