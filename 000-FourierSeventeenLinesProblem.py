@@ -1,5 +1,5 @@
 #Note:I call this program "problem 0," but I saw this problem at Hampshire College
-#on Yellow Pigs' Day, and it is truly not a Project Euler problem, or if it 
+#on Yellow Pigs Day, and it is truly not a Project Euler problem, or if it 
 #is, it is not indexed at 0. However, solving this problem led me to discover Project 
 #Euler. At the end of the summer, I spent an entire afternoon staring at this program 
 #and figuring out what I wanted it to do. After finding the solution, I told my friends 
