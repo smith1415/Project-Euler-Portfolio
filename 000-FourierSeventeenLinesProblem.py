@@ -12,7 +12,7 @@
 #the lines extend to infinity, and that no point of intersection belongs to more than 
 #two lines" 
 
-#After finding one solution (8, 4, 2, 1, 1), I took issue with the idea that this is 
+#After finding one solution (8, 4, 2, 1, 1, 1), I took issue with the idea that this is 
 #a question "singular in nature." I saw no reason why an arragement with 100 or 102 or 
 #72 points of intersection would be any less interesting--unless of course there are 
 #some numbers for which it is impossible. Thus, I wrote this program to find all the 
