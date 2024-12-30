@@ -72,7 +72,7 @@ def c(array, level):
             for a in array:
                 copy.append(a)
                 
-            while level-i<level:
+            while i>0:
                 copy=m(copy, level-i)
                 i=i-1
             c(copy, level-1)
