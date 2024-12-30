@@ -84,8 +84,7 @@ if(length>8):
 list=[]
 for i in range(0, length):
     list.append(i)
-if len(list)>=length:
-   c(list, length)
+c(list, length)
 yes=input("Do you want to see a particular permutation?")
 if yes=="yes":
     index=int(input("What index?"))
