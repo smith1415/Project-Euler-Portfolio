@@ -14,7 +14,9 @@
 #would take over twenty billion years to check them all. There is an efficient algorithm to solve 
 #it. ;o)
 
-"""copy bigString1 from https://docs.google.com/document/d/1R52cuUqIma-hKWUVw9FH2JHXGyHBtlhicb5zaC1uwNU/edit?usp=sharing
+""" I reformatted the file from Project Euler in these google docs by using find and replace to add
+an "n" to the beginning of each new line.
+copy bigString1 from https://docs.google.com/document/d/1R52cuUqIma-hKWUVw9FH2JHXGyHBtlhicb5zaC1uwNU/edit?usp=sharing
 copy bigString2 from https://docs.google.com/document/d/1dqAHFs3NKxIUymsLVgz20zoy_5_-n2sSB4pV2P8K-p8/edit?usp=sharing
 bigString1=input()
 bigString2=input()
