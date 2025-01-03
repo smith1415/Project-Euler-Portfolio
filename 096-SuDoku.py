@@ -1,3 +1,4 @@
+#have not solved (yet)
 #Problem 96: Su Doku (Japanese meaning number place) is the name given to a popular puzzle 
 #concept. Its origin is unclear, but credit must be attributed to Leonhard Euler who invented a 
 #similar, and much more difficult, puzzle idea called Latin Squares. The objective of Su Doku 
