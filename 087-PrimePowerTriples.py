@@ -105,6 +105,3 @@ for p in primes:
         squareCube=square+primes[cubeIndex]**3
     print(p, primes[cubeIndex], primes[fourthIndex], total)
 print(len(sums))
-
-
-        
