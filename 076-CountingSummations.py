@@ -7,7 +7,8 @@
 2+1+1+1
 1+1+1+1+1
 """
-#How many different ways can one hundred be written as a sum of at least two positive integers?
+#How many different ways can one hundred be written as a sum of at least two positive 
+#integers?
 
 #see problem 0 
 def ways(n,lowest, goal):
