@@ -13,7 +13,6 @@ def numSums(n, exclude):
     output=int(n/2)
     return output
 
-
 abcList=[]
 cuboid=[]
 M=100
