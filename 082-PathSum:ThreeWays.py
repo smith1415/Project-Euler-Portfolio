@@ -134,4 +134,3 @@ print("index:", index)
 print("Here's the whole chart:")
 for list in v:
     print(list)
-    
