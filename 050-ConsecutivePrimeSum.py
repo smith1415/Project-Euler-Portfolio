@@ -56,4 +56,3 @@ while notFound:
         list.append(primes[index])
         index+=1
     maxLen-=1
-    
