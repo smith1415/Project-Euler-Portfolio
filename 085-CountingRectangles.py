@@ -8,7 +8,6 @@
 2: 2x2
 1: 3x2
 """
-
 #Although there exists no rectangular grid that contains exactly two million rectangles, 
 #find the area of the grid with the nearest solution.
 
