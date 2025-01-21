@@ -3,7 +3,6 @@
 #(200p). It is possible to make £2 in the following way: 1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 
 #3×1p. How many different ways can £2 be made using any number of coins?
 
-
 #simply counts the number of ways to group things normally (see #0 or #76)
 def ways(n,lowest, goal):
     if n>goal:
@@ -53,7 +52,6 @@ def coinWays(n, lowest, goal):
             i+=1
     return total
 
-
 #finds the list of ways
 def coinListWays(nums, goal, finalList):
     if sum(nums)>goal:
@@ -79,14 +77,10 @@ def coinGroupings(num, listing):
         out=out+coinListWays([i], num, listing)
     return out
 
-
 print("simple way:", coinWays(0, 200, 200))
 
 groups=[]
 print("complicated way:", coinGroupings(200, groups))
 print("Here are all "+str(len(groups))+" ways:")
-for group in groups:
-    print(group)
-    
 for group in groups:
     print(group)
