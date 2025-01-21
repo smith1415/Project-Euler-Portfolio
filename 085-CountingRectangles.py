@@ -9,14 +9,17 @@
 1: 3x2
 """
 
-#Although there exists no rectangular grid that contains exactly two million rectangles, find the 
-#area of the grid with the nearest solution.
+#Although there exists no rectangular grid that contains exactly two million rectangles, 
+#find the area of the grid with the nearest solution.
 
-#This function was on the HCSSiM 2024 Interesting test! I've already found it!
+#This problem can be explored with a two variable (length and width) function. 
+
+#That function was on the HCSSiM 2024 Interesting test! I've already found it!
 #I did a visual proof on paper, but here I'll just put my findings:
-#for an a x b grid, there are 1/4(a^2+a)(b^2+b) rectangles which can be formed
+#For an a x b grid, there are 1/4(a^2+a)(b^2+b) rectangles which can be formed.
+
 #we need the integers a and b where 1/4(a^2+a)(b^2+b) is closest to 2 million
-#it's only a two variable equation. let's graph it!
+#That's only a two variable equation. let's graph it!
 #1/4(x^2+x)(y^2+y)=2000000
 #Isolate y to get:
 #sqrt(8000000/(x^2+x)+0.25)+0.5
