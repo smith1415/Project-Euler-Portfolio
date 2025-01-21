@@ -105,4 +105,3 @@ for A in range(0, 9):
                                 products.append(int(strproduct))
 print(products)
 print(sum(products))
-                    
