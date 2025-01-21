@@ -25,9 +25,3 @@ while notFound:
                 notFound=False
 print("Found!", pair)
 print("Difference:", pair[0]-pair[1])
-
-
-        
-
-
-        
