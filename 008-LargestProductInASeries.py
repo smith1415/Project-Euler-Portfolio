@@ -37,7 +37,3 @@ for i in range(0, len(num)-14):
         maxProd=candidate
 
 print("Maximum Product of 13 adjacent digits:", maxProd)
-
-
-
-        
