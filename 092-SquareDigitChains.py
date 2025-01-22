@@ -1,7 +1,7 @@
 #have not solved (yet)
 #(When ran this on my computer, it broke, and I had to replace the motherboard...)
-#Problem 92: A number chain is created by continuously adding the square of the digits in a 
-#number to form a new number until it has been seen before.
+#Problem 92: A number chain is created by continuously adding the square of the digits in 
+#a number to form a new number until it has been seen before.
 """
 For example,
 44->32->13->10->1->1
